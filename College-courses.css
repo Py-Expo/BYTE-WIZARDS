@@ -1,0 +1,46 @@
+/* Set background colors and adjust width and height for each section */
+.courses {
+    background-image: url('images/3d-background-with-white-cubes.jpg');
+    /* Set a background color for the entire section */
+    padding: 20px;
+    /* Add padding for better readability */
+
+    /* Adjust width and center the section on larger screens */
+    max-width: 1290px;
+    margin: auto;
+}
+
+/* Style each subsection (Engineering-Courses, Arts-Courses, MBBS-Courses) */
+.courses ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    /* Add some space between subsections */
+}
+
+/* Style Engineering-Courses subsection */
+#scrollspyHeading1 {
+    background-color: #3498db;
+    /* Set a background color for the heading */
+    color: #fff;
+    /* Set text color for the heading */
+    padding: 10px;
+    /* Add padding for better appearance */
+    text-align: center;
+}
+
+/* Style Arts-Courses subsection */
+#scrollspyHeading2 {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style MBBS-Courses subsection */
+#scrollspyHeading3 {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
